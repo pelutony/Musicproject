@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Play List</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+    <div class="player">  
+   <div class="player__header">  
+    <div class="player__img player__img--absolute slider">  
+     <button class="player__button player__button--absolute--nw playlist">  
+      <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon">  
+     </button>  
+     <button class="player__button player__button--absolute--center play">  
+      <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon">  
+      <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon">  
+     </button>  
+     <div class="slider__content">  
+      <img class="img slider__img" src="http://physical-authority.surge.sh/imgs/1.jpg" alt="cover">  
+      <img class="img slider__img" src="http://physical-authority.surge.sh/imgs/2.jpg" alt="cover">  
+      <img class="img slider__img" src="http://physical-authority.surge.sh/imgs/3.jpg" alt="cover">  
+      <img class="img slider__img" src="http://physical-authority.surge.sh/imgs/4.jpg" alt="cover">  
+      <img class="img slider__img" src="http://physical-authority.surge.sh/imgs/5.jpg" alt="cover">  
+      <img class="img slider__img" src="http://physical-authority.surge.sh/imgs/6.jpg" alt="cover">  
+      <img class="img slider__img" src="http://physical-authority.surge.sh/imgs/7.jpg" alt="cover">  
+     </div>  
+    </div>  
+    <div class="player__controls">  
+     <button class="player__button back">  
+      <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon">  
+     </button>  
+     <p class="player__context slider__context">  
+      <strong class="slider__name"></strong>  
+      <span class="player__title slider__title"></span>  
+     </p>  
+     <button class="player__button next">  
+      <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon">  
+     </button>  
+     <div class="progres">  
+      <div class="progres__filled"></div>  
+     </div>  
+    </div>  
+   </div>  
+   <ul class="player__playlist list">  
+    <li class="player__song">  
+     <img class="player__img img" src="/assets/img/Fave-–-Baby-Riddim-1024x1024-1-1024x1024.jpeg" alt="cover">  
+     <p class="player__context">  
+      <b class="player__song-name">Fave</b>  
+      <span class="flex">  
+       <span class="player__title">Baby Riddim</span>  
+       <span class="player__song-time"></span>  
+      </span>  
+     </p>  
+     <audio class="audio" src="/assets/audio/Fave_-_Baby_Riddim.mp3"></audio>  
+    </li>  
+    <li class="player__song">  
+     <img class="player__img img" src="/assets/img/Cold Outside.jfif" alt="cover">  
+     <p class="player__context">  
+      <b class="player__song-name">Timaya Ft Buju</b>  
+      <span class="flex">  
+       <span class="player__title">Cold Outside</span>  
+       <span class="player__song-time"></span>  
+      </span>  
+     </p>  
+     <audio class="audio" src="/assets/audio/Timaya_Ft_Buju_-_Cold_Outside.mp3"></audio>  
+    </li>  
+    <li class="player__song">  
+     <img class="player__img img" src="/assets/img/alicia keys.jfif" alt="cover">  
+     <p class="player__context">  
+      <b class="player__song-name">Alicia Keys</b>  
+      <span class="flex">  
+       <span class="player__title">Sleep with a broken heart</span>  
+       <span class="player__song-time"></span>  
+      </span>  
+     </p>  
+     <audio class="audio" src="/assets/audio/Alicia_Keys_ft_Maino_-_Try_Sleeping_with_a_Broken_Heart_[NaijaGreen.Com]_.mp3"></audio>  
+    </li>  
+    <li class="player__song">  
+     <img class="player__img img" src="/assets/img/Money- Zlatan.jfif" alt="cover">  
+     <p class="player__context">  
+      <b class="player__song-name">Zlatan Ft Davido</b>  
+      <span class="flex">  
+       <span class="player__title">Money</span>  
+       <span class="player__song-time"></span>  
+      </span>  
+     </p>  
+     <audio class="audio" src="/assets/audio/Zlatan_Money_Ft_Davido_9jaflaver.com_.mp3"></audio>  
+    </li>  
+    <li class="player__song">  
+     <img class="player__img img" src="/assets/img/My bebe.jfif" alt="cover">  
+     <p class="player__context ">  
+      <b class="player__song-name">Omah-Lay</b>  
+      <span class="flex">  
+       <span class="player__title">My-Bebe</span>  
+       <span class="player__song-time"></span>  
+      </span>  
+     </p>  
+     <audio class="audio" src="/assets/audio/Omah-Lay-My-Bebe.mp3"></audio>  
+    </li>  
+    <li class="player__song">  
+     <img class="player__img img" src="/assets/img/Tope-Alabi-Yes-And-Amen-mp3-image.jpg" alt="cover">  
+     <p class="player__context">  
+      <b class="player__song-name">Tope Alabi</b>  
+      <span class="flex">  
+       <span class="player__title">Halleluyah</span>  
+       <span class="player__song-time"></span>  
+      </span>  
+     </p>  
+     <audio class="audio" src="/assets/audio/Tope-Alabi-Halleluyah-[TrendyBeatz.com].mp3"></audio>  
+    </li>  
+    <li class="player__song">  
+     <img class="player__img img" src="/assets/img/Tope-Alabi-Yes-And-Amen-mp3-image.jpg" alt="cover">  
+     <p class="player__context ">  
+      <b class="player__song-name">Tope<span class="uppercase">alabi</span</b>  
+      <span class="flex">  
+       <span class="player__title">Yes and Amen</span>  
+       <span class="player__song-time"></span>  
+      </span>  
+     </p>  
+     <audio class="audio" src="/assets/audio/Tope-Alabi-Yes-And-Amen.mp3"></audio>  
+    </li>
+   </ul>  
+  </div>  
+  
+    
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
